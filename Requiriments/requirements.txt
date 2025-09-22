@@ -1,0 +1,29 @@
+# --- Core ---
+pandas>=2.0,<2.3
+numpy>=1.23,<2.0
+scikit-learn>=1.0,<1.4
+
+# PyCaret (classification, plotting, SHAP, etc.)
+pycaret==3.2.0
+# If you prefer the metapackage with extras, you can instead use:
+# pycaret[full]==3.2.0
+
+# Gradient boosting stacks (used by PyCaret)
+xgboost>=1.7,<2.0
+lightgbm>=4.0,<5.0
+shap>=0.42,<1.0
+imbalanced-learn>=0.11,<0.13
+
+# ZIP -> State
+pgeocode>=0.4.0
+
+# EDA / Visualization
+matplotlib>=3.7,<3.9
+seaborn>=0.12,<0.13
+plotly>=5.18,<6
+ydata-profiling>=4.6,<5
+autoviz>=0.1.905
+
+# Jupyter
+jupyterlab>=4,<5
+ipykernel>=6,<7
